@@ -1,0 +1,132 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Blueprint Dark Theme",
+  "author": "Storm Maxwell",
+  "themes": [
+    {
+      "name": "Blueprint Dark Theme",
+      "appearance": "dark",
+      "style": {
+        "background": "#1360BDFF",
+        "surface.background": "#2F7AC8FF",
+        "elevated_surface.background": "#2F7AC8FF",
+        "panel.background": "#2F7AC8FF",
+        "panel.overlay_background": "#2F7AC8FF",
+        "panel.overlay_hover": "#1360BDFF",
+
+        "editor.background": "#005DB3FF",
+        "editor.gutter.background": "#005DB3FF",
+        "editor.active_line.background": "0080FFFF",
+        "editor.bracket_highlight.background": "#2384EBFF",
+        "editor.document_highlight.read_background": "#F5000000",
+        "editor.document_highlight.write_background": "#C43F3F00",
+        "editor.document_highlight.bracket_background": "#2384EBFF",
+        "search.match_background": "#523F99FF",
+        "editor.highlighted_line.background": "#2F7AC8FF",
+        "editor.subheader.background": "#2F7AC8FF",
+        "editor.line_number": "#FFFFFFFF",
+        "editor.hover_line_number": "#FF0000FF",
+        "editor.active_line_number": "#82FFB1FF",
+
+        "tab_bar.background": "#2F7AC8FF",
+        "tab.inactive_background": "#2F7AC8FF",
+        "tab.active_background": "#005DB3FF",
+
+        "toolbar.background": "#005DB3FF",
+        "status_bar.background": "#1360BDFF",
+        "title_bar.background": "#1360BDFF",
+        "element.background": "#1360BDFF",
+        "terminal.background": "#005DB3FF",
+
+        "text.disabled": "#99A0BAFF",
+        "text.placeholder": "#AACBF0FF",
+        "icon.disabled": "#99A0BAFF",
+
+        "error": "#FF2600FF",
+        "error.border": "#BF2300FF",
+        "error.background": "#FF000014",
+        "warning": "#FFA600FF",
+        "warning.border": "#CC8608FF",
+        "warning.background": "#FFA60014",
+        "conflict": "#960C0CFF",
+        "conflict.background": "#A60808FF",
+        "conflict.border": "#DB0000FF",
+
+        "created": "#19FF00FF",
+        "created.background": "#77FF00FF",
+        "created.border": "#2ECF00FF",
+
+        "modified": "#15EBC3FF",
+        "modified.background": "#14C4AEFF",
+        "modified.border": "#00FFDAFF",
+
+        "deleted": "#FFB5B5FF",
+        "deleted.background": "#FFBABAFF",
+        "deleted.border": "#FC5D5DFF",
+
+        "version_control.added": "#19FF00FF",
+        "version_control.deleted": "#FFB5B5FF",
+        "version_control.modified": "#15EBC3FF",
+        "version_control.conflict": "#960C0CFF",
+
+        "players": [
+          {
+            "cursor": "#FFFFFFFF",
+            "background": "#002791FF",
+            "selection": "#001B7AA0"
+          },
+          {
+            "cursor": "#00E87AFF",
+            "background": "#0A5C38FF",
+            "selection": "#0A5848EF"
+          },
+          {
+            "cursor": "#B044D4FF",
+            "background": "#7A2080FF",
+            "selection": "#4A0D5AA0"
+          },
+          {
+            "cursor": "#C8523AFF",
+            "background": "#8B2E1AFF",
+            "selection": "#6B1A10A0"
+          }
+        ],
+
+        "syntax": {
+          "string":                 { "color": "#FFFFB8FF" },
+          "string.escape":          { "color": "#FFE291FF" },
+          "string.regex":           { "color": "#FFFFB8FF" },
+          "string.special":         { "color": "#FFE291FF" },
+          "string.special.symbol":  { "color": "#FFE291FF" },
+          "text.literal":           { "color": "#FFFFB8FF" },
+
+          "comment":                { "color": "#67BBC9FF" },
+          "comment.doc":            { "color": "#67BBC9FF" },
+
+          "keyword":                { "color": "#FFBDBDFF" },
+          "operator":               { "color": "#D9ECFAFF" },
+          "preproc":                { "color": "#6EAAF0FF" },
+
+          "function":               { "color": "#6EEFFFFF" },
+          "attribute":              { "color": "#9FFCCCFF" },
+
+          "type":                   { "color": "#FFFFFFFF" },
+          "enum":                   { "color": "#FFFFFFFF" },
+          "namespace":              { "color": "#FFDEDEFF" },
+
+          "variable":               { "color": "#FFFFFFFF" },
+          "variable.special":       { "color": "#FFE6F6FF" },
+          "property":               { "color": "#FFFFFFFF" },
+
+          "boolean":                { "color": "#F5AEF5FF" },
+          "constant":               { "color": "#B5E7FFFF" },
+          "variant":                { "color": "#C20606FF" },
+
+          "punctuation.bracket":    { "color": "#00FFE1FF" },
+          "punctuation.delimiter":  { "color": "#00FFE1FF" },
+          "punctuation.list_marker":{ "color": "#00FFE1FF" }
+        }
+      }
+    }
+  ]
+}
