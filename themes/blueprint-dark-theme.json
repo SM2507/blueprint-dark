@@ -71,7 +71,7 @@
         "version_control.modified": "#15EBC3FF",
         "version_control.conflict": "#960C0CFF",
 
-        "scrollbar_thumb.background": "#AACBF060",
+        "scrollbar.thumb.background": "#AACBF060",
         "scrollbar.thumb.hover_background": "#AACBF0A0",
         "scrollbar.thumb.border": "#AACBF030",
         "scrollbar.track.background": "#00000020",
