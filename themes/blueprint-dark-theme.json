@@ -16,7 +16,7 @@
 
         "editor.background": "#005DB3FF",
         "editor.gutter.background": "#005DB3FF",
-        "editor.active_line.background": "0080FFFF",
+        "editor.active_line.background": "#0080FFFF",
         "editor.bracket_highlight.background": "#2384EBFF",
         "editor.document_highlight.read_background": "#F5000000",
         "editor.document_highlight.write_background": "#C43F3F00",
@@ -39,8 +39,10 @@
         "terminal.background": "#005DB3FF",
 
         "text.disabled": "#99A0BAFF",
+        "text.muted": "#EEEEEEFF",
         "text.placeholder": "#AACBF0FF",
         "icon.disabled": "#99A0BAFF",
+        "ignored": "#B1B9E3FF",
 
         "error": "#FF2600FF",
         "error.border": "#BF2300FF",
@@ -69,6 +71,12 @@
         "version_control.modified": "#15EBC3FF",
         "version_control.conflict": "#960C0CFF",
 
+        "scrollbar_thumb.background": "#AACBF060",
+        "scrollbar.thumb.hover_background": "#AACBF0A0",
+        "scrollbar.thumb.border": "#AACBF030",
+        "scrollbar.track.background": "#00000020",
+        "scrollbar.track.border": "#FFFFFF10",
+
         "players": [
           {
             "cursor": "#FFFFFFFF",
@@ -93,38 +101,38 @@
         ],
 
         "syntax": {
-          "string":                 { "color": "#FFFFB8FF" },
-          "string.escape":          { "color": "#FFE291FF" },
-          "string.regex":           { "color": "#FFFFB8FF" },
-          "string.special":         { "color": "#FFE291FF" },
-          "string.special.symbol":  { "color": "#FFE291FF" },
-          "text.literal":           { "color": "#FFFFB8FF" },
+          "string": { "color": "#FFFFB8FF" },
+          "string.escape": { "color": "#FFE291FF" },
+          "string.regex": { "color": "#FFFFB8FF" },
+          "string.special": { "color": "#FFE291FF" },
+          "string.special.symbol": { "color": "#FFE291FF" },
+          "text.literal": { "color": "#FFFFB8FF" },
 
-          "comment":                { "color": "#67BBC9FF" },
-          "comment.doc":            { "color": "#67BBC9FF" },
+          "comment": { "color": "#67BBC9FF" },
+          "comment.doc": { "color": "#67BBC9FF" },
 
-          "keyword":                { "color": "#FFBDBDFF" },
-          "operator":               { "color": "#D9ECFAFF" },
-          "preproc":                { "color": "#6EAAF0FF" },
+          "keyword": { "color": "#FFBDBDFF" },
+          "operator": { "color": "#D9ECFAFF" },
+          "preproc": { "color": "#6EAAF0FF" },
 
-          "function":               { "color": "#6EEFFFFF" },
-          "attribute":              { "color": "#9FFCCCFF" },
+          "function": { "color": "#6EEFFFFF" },
+          "attribute": { "color": "#9FFCCCFF" },
 
-          "type":                   { "color": "#FFFFFFFF" },
-          "enum":                   { "color": "#FFFFFFFF" },
-          "namespace":              { "color": "#FFDEDEFF" },
+          "type": { "color": "#FFFFFFFF" },
+          "enum": { "color": "#FFFFFFFF" },
+          "namespace": { "color": "#FFDEDEFF" },
 
-          "variable":               { "color": "#FFFFFFFF" },
-          "variable.special":       { "color": "#FFE6F6FF" },
-          "property":               { "color": "#FFFFFFFF" },
+          "variable": { "color": "#FFFFFFFF" },
+          "variable.special": { "color": "#FFE6F6FF" },
+          "property": { "color": "#FFFFFFFF" },
 
-          "boolean":                { "color": "#F5AEF5FF" },
-          "constant":               { "color": "#B5E7FFFF" },
-          "variant":                { "color": "#C20606FF" },
+          "boolean": { "color": "#F5AEF5FF" },
+          "constant": { "color": "#B5E7FFFF" },
+          "variant": { "color": "#C20606FF" },
 
-          "punctuation.bracket":    { "color": "#00FFE1FF" },
-          "punctuation.delimiter":  { "color": "#00FFE1FF" },
-          "punctuation.list_marker":{ "color": "#00FFE1FF" }
+          "punctuation.bracket": { "color": "#00FFE1FF" },
+          "punctuation.delimiter": { "color": "#00FFE1FF" },
+          "punctuation.list_marker": { "color": "#00FFE1FF" }
         }
       }
     }
