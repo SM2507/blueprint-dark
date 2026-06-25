@@ -16,7 +16,7 @@
 
         "editor.background": "#005DB3FF",
         "editor.gutter.background": "#005DB3FF",
-        "editor.active_line.background": "#0080FFFF",
+        "editor.active_line.background": "#00448CFF",
         "editor.bracket_highlight.background": "#2384EBFF",
         "editor.document_highlight.read_background": "#F5000000",
         "editor.document_highlight.write_background": "#C43F3F00",
